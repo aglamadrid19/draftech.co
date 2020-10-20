@@ -127,7 +127,7 @@ export default function Index() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={require("assets/img/why.jpg")}
+                  src={require("assets/img/why.webp")}
                 />
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function Index() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={require("assets/img/how.jpg")}
+                  src={require("assets/img/how.webp")}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
