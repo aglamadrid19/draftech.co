@@ -17,7 +17,7 @@ export default function Index() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url(" + require("assets/img/hero.png") + ")",
+                "url(" + require("assets/img/hero.jpg") + ")",
             }}
           >
             <span
@@ -127,7 +127,7 @@ export default function Index() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={require("assets/img/why.png")}
+                  src={require("assets/img/why.jpg")}
                 />
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function Index() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={require("assets/img/how.png")}
+                  src={require("assets/img/how.jpg")}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
