@@ -5,7 +5,7 @@ const withCSS = require("@zeit/next-css");
 const withFonts = require("next-fonts");
 const webpack = require("webpack");
 const path = require("path");
-const target = require("target")
+const target = require("target");
 
 module.exports = withFonts(
   withCSS(
