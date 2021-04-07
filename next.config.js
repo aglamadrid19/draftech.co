@@ -5,7 +5,6 @@ const withCSS = require("@zeit/next-css");
 const withFonts = require("next-fonts");
 const webpack = require("webpack");
 const path = require("path");
-const target = require("target");
 
 module.exports = withFonts(
   withCSS(
@@ -17,6 +16,7 @@ module.exports = withFonts(
             use: {
               loader: "url-loader",
             },
+            target: 'serverless',
           });
           config.resolve.modules.push(path.resolve("./"));
           return config;
